@@ -360,7 +360,7 @@ span.fr-img-caption.fr-view {
       float: right;
       margin: 5px 0 5px 5px;
       max-width: calc(100% - 5px); }
-/*end-commonstyles library*/@charset "UTF-8";
+/*end-commonstyles library*/
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -1168,6 +1168,7 @@ a {
 }
 .u-image.u-logo img {
   display: block;
+  margin-left: -100%;
 }
 .u-form-horizontal {
   display: flex;
