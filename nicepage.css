@@ -4,7 +4,7 @@
  * Copyright 2014-2021 Froala Labs
  */
 
-.fr-clearfix::after {
+ .fr-clearfix::after {
   clear: both;
   display: block;
   content: "";
@@ -360,8 +360,7 @@ span.fr-img-caption.fr-view {
       float: right;
       margin: 5px 0 5px 5px;
       max-width: calc(100% - 5px); }
-/*end-commonstyles library*/
-/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1168,7 +1167,6 @@ a {
 }
 .u-image.u-logo img {
   display: block;
-  margin-left: -100%;
 }
 .u-form-horizontal {
   display: flex;
@@ -37924,7 +37922,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-image-1 {
   width: 76px;
   height: 63px;
-  margin: 4px auto 0 0;
+  margin: 4px auto 0 -20px;
 }
 
 .u-header .u-logo-image-1 {
